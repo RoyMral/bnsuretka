@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sistema BN Suretka</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+
+<body>
+
+	<div class="banner1">
+		<img src="images/banner1.jpg" alt="banner1" height="627px" width="175px">
+	</div>
+	<div class="banner2">	
+		<img src="images/banner2.jpg" alt="banner2" height="627px" width="175px">	
+	</div>
+
+	<header>
+	<img src="images/bnlogo.png" alt="bnlogo" class="logo">
+	<h1><span>Control Diario BN Suretka</span></h1>
+	</header>
+
+	<section class="main">
+		<section class="primero">
+			<table class="tabla1">
+				<tr>
+					<th colspan="3">COSTOS POR RECIBOS</th>
+				</tr>
+				<tr>
+					<th>CANTIDAD</th><th>COMISIÓN</th><th>MONTO</th>
+				</tr>
+				<tr>
+					<td><input type="text" id="c1000"></td><td id="1000">1000</td><td id= "m1000"></td>
+				</tr>
+				<tr>
+					<td><input type="text" class="c500"></td><td class="500">500</td><td class="m500"></td>
+				</tr>
+				<tr>
+					<td><input type="text" class="c350"></td><td class="350">350</td><td class="m350"></td>
+				</tr>
+				<tr>
+					<td class="ctotal"></td><td class="total1">TOTAL</td><td class="mtotal"></td>
+				</tr>
+			</table>
+
+
+			<table class="tabla2">
+				<tr>
+					<th colspan="2">RECARGAS V-NET</th>
+				</tr>
+				<tr>
+					<td>SALDO ANTERIOR</td><td><input type="text" class="salant"></td>
+				</tr>
+				<tr>
+					<td>TRASLADO DEL DÍA</td><td><input type="text" class="trasdia"></td>
+				</tr>
+				<tr>
+					<td>COMISIÓN POR TRANSFERENCIA</td><td><input type="text" class="comtrans"></td>
+				</tr>
+				<tr>
+					<td>TOTAL RECARGAS DEL DÍA</td><td><input type="text" class="toredia"></td>
+				</tr>
+				<tr>
+					<td>SALDO FINAL</td><td class="salfinal"></td>
+				</tr>
+			</table>
+
+		</section>
+
+		<section class="segundo">
+			<table class="tabla3">
+				<tr>
+					<th colspan="2">SALDOS BN SERVICIOS</th>
+				</tr>
+				<tr>
+					<td>SALDO INICIAL</td><td><input type="text" class="salini"></td>
+				</tr>
+				<tr>
+					<td>COMISIÓN DEL DÍA ANTERIOR</td><td><input type="text" class="comdiant"></td>
+				</tr>
+				<tr>
+					<td>ADELANTOS A BANCO DEL DÍA</td><td><input type="text" class="adebandia"></td>
+				</tr>
+				<tr>
+					<td>DEPÓSITOS ANTERIORES</td><td><input type="text" class="depoante"></td>
+				</tr>
+				<tr>
+					<td>SALDO FINAL</td><td class="salfinal2"></td>
+				</tr>
+				<tr>
+					<td>PAGOS DEL DÍA BN</td><td><input type="text" class="pagodia"></td>
+				</tr>
+				<tr>
+					<td>TRANSFERENCIA V-NET</td><td class="transvnet"></td>
+				</tr>
+				<tr>
+					<td>SÁBADO</td><td class="sabado"></td>
+				</tr>
+				<tr>
+					<td>TOTAL</td><td class="total2"></td>
+				</tr>
+		
+			</table>
+
+			<table class="tabla4">
+				<tr>
+					<th colspan="2">ENTRADA DEL DÍA</th>
+				</tr>
+				<tr>
+					<td>TARJETAS</td><td><input type="text" class="tarjetas"></td>
+				</tr>
+				<tr>
+					<td>PAGOS BN</td><td class="pagobn"></td>
+				</tr>
+				<tr>
+					<td>MONTO RECIBOS BN</td><td class="monrebn"></td>
+				</tr>
+				<tr>
+					<td>RECARGAS V-NET</td><td class="revnet"></td>
+				</tr>
+				<tr>
+					<td>PAGOS DE CRÉDITO</td><td><input type="text" class="pagocredito"></td>
+				</tr>
+				<tr>
+					<td>TOTAL INGRESO</td><td class="totalingreso"></td>
+				</tr>
+				<tr>
+					<td>PAGO DE CAJA</td><td class="pagocaja"></td>
+				</tr>
+				<tr>
+					<td>TOTAL</td><td class="total3"></td>
+				</tr>
+				<tr>
+					<td>ADELANTO DEPÓSITO</td><td class="adedepo"></td>
+				</tr>
+				<tr>
+					<td>TOTAL EFECTIVO CAJA</td><td class="totefecaja"></td>
+				</tr>
+		
+			</table>
+
+			<table class="tabla5">
+				<tr>
+					<th colspan="2">PAGOS CAJA</th>
+				</tr>
+				<tr>
+					<td>TAXISTA 1</td><td><input type="text" class="tax1"></td>
+				</tr>
+				<tr>
+					<td>TAXISTA 2</td><td><input type="text" class="tax2"></td>
+				</tr>
+				<tr>
+					<td>PAGO DÍA</td><td><input type="text" class="gastodia"></td>
+				</tr>
+				<tr>
+					<td>TOTAL</td><td class="total4"></td>
+				</tr>
+
+			</table>
+
+		</section>
+
+		<section class="tercero">
+			<!-- <input type="button" class="limpiar" onclick="limpiar()" value="Clear"> -->
+			<button class="limpiar">Clear</button>
+			
+		</section>
+
+	</section>
+
+	<footer>
+		<p><strong>Roy Morales Almengor - BN Suretka 2019</strong></p>
+	</footer>
+
+</body>
+</html>

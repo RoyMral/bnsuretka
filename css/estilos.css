@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:#BCBF56;
+	
+}
+
+.banner1{
+	float: left;
+	margin-top: -20px;
+	height: 0px;
+
+}
+
+.banner2{
+	float: right;
+	height: 0px;
+	margin-top: -20px;
+}
+
+header, .main, footer{
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+.logo{
+	width: 10%;
+	border: 2px solid #efefef;
+	border-radius: 50%;
+	float: left;
+	margin-top: -20px;
+
+}
+
+h1{
+	text-align: center;
+	color: #733917;
+	margin: 10px 200px 100px 200px;
+
+	
+}
+
+h1 span{
+	border: 4px dashed #733917;
+	padding: 10px;
+
+}
+
+table, td{
+	border: 2px solid #8C7F3B;
+	border-collapse: collapse;
+	text-align: center;
+
+}
+
+
+th{
+	background-color: #8C7F3B;
+	border-bottom: solid 5px #733917;
+	color: #733917;
+}
+
+tr:nth-child(even){
+	background-color: #FBFF8F;
+
+}
+
+tr:hover{
+	background-color: #733917;
+	color: #FFFFA5;
+}
+
+
+td{
+	width: 150px;
+}
+
+
+.main table{
+	float: left;
+}
+
+.main .primero table{
+	margin: -50px 25px 20px 70px;
+	
+}
+
+.tabla1 td{
+	width: 110px;
+}
+
+.tabla2 td{
+	width: 200px;
+	/*box-sizing: border-box;*/
+}
+
+.main .segundo table{
+	margin: 0px 10px 18px 10px;
+
+}
+
+.primero input, .segundo input{
+	text-align: center;
+	font-size: 11pt;
+	width: 60%;
+	background-color: transparent;
+
+	border-color: #843908;
+
+}
+
+
+section .tercero{
+	float: left;
+}
+
+.limpiar{
+	width: 100px;
+	height: 40px;
+	font-size: 15pt;
+	margin: 5px 0px 10px 50px;
+}
+
+
+footer{
+	background: #733917;
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	height: 20px;
+	margin-bottom: 0px;
+}
+
+strong{
+	color: #FFFFA5;
+}
+
+
+
