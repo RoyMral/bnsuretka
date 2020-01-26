@@ -106,6 +106,7 @@ function limpiar(){
 }
 
 function main(){
+	limpiar();
 	var a = document.getElementsByClassName("limpiar")[0];
 	a.addEventListener("click", limpiar);
 
